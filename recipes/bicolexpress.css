@@ -1,0 +1,52 @@
+*{
+    background-color: lightgray;
+}
+
+h1{
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    font-size: 3em;
+    background-color: lightsalmon;
+    padding: 50px 0;
+    width: 100%;
+}
+
+img{
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p{
+    text-align:justify;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+h2{ 
+    font-size: 1.3em;
+}
+
+ul, ol{
+    font-size: 1em;
+}
+
+div>p{
+    font-size: 1em;
+}
+
+
+li>a{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+div>ul>li{
+    margin-top: 30px;
+    font-size: 1.1em;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    width: fit-content;
+}
